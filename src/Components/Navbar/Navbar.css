@@ -1,0 +1,9 @@
+.nav-lang-button{
+    background-color:rgb(207, 207, 207);
+    border: none;
+    padding: 1rem;
+    border-radius: 100%;
+    align-self: end;
+    margin-right: 500px;
+    font-weight: bold;
+}
