@@ -1,0 +1,15 @@
+.footer-all{
+    background-color: rgb(173, 173, 173);
+    position: absolute; 
+    bottom: 0; 
+    width: 100%;
+}
+.footer-img{
+    filter: grayscale(1);
+    transition: all .3s;
+}
+.footer-img:hover{
+    filter: none;
+    transform:scale(1.2)
+    
+}
