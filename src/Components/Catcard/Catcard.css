@@ -1,0 +1,18 @@
+.card{
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 0;
+}
+.card:hover{
+    transition: all .3s;
+    transform: translatey(.3rem);
+}
+.card-title{
+    opacity: 1;
+    cursor: default;
+}
+.card-img-top{
+    width: 100%;
+    border-top-left-radius:1rem ;
+    border-top-right-radius: 1rem;
+}

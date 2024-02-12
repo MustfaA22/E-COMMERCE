@@ -1,0 +1,6 @@
+.bg-div{
+    width:100%;
+    padding: 4rem;
+    background: rgb(230,230,230);
+background: linear-gradient(90deg, rgba(230,230,230,0.6110819327731092) 0%, rgba(136,136,136,1) 0%, rgba(235,232,232,1) 100%);
+}
