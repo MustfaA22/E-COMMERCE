@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const Catcard=(props)=>{
     return(
-      <Link to={props.path}>
-        <div class="card col-3  mt-5" >
+      <Link className="col-3" to={props.path}>
+        <div class="card   mt-5" >
         <img src={props.img} class="card-img-top" alt="..."/>
         <div class="card-body">
           <h5 class="card-title">{props.name}</h5>
