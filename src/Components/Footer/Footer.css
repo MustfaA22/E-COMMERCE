@@ -1,6 +1,6 @@
 .footer-all{
     background-color: rgb(173, 173, 173);
-     
+    position: fixed;
     bottom: 0; 
     width: 100%;
 }

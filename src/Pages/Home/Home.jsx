@@ -7,7 +7,7 @@ import { useState } from "react";
 const Home=()=>{
    const [data,setdata]=useState([])
    const getdata=()=>{
-    axios.get("https://localhost:7099/api/Categories").then((res)=>{
+    axios.get("https://localhost:7164/api/getallcAT").then((res)=>{
         setdata(res.data)
     })
    }
@@ -20,7 +20,8 @@ const Home=()=>{
                 <div className="row justify-content-center gap-4">
                  {data?.map((el)=>{
                     return(
-                    <Catcard name={el.categoryName} desc={el.categoryDescription} img={"https://cdn.salla.sa/zpDz/lroCXh23FAkNHIU1HvJ8dJkE98W9Agz4QUjDsK1l.jpg"} />
+                    <Catcard name={el.catname} desc={el.catdescription} img={"https://cdn.salla.sa/zpDz/lroCXh23FAkNHIU1HvJ8dJkE98W9Agz4QUjDsK1l.jpg"} 
+                    path={`products/${el.id}`}/>
                     )
                 })}
                 </div>
